@@ -3424,7 +3424,7 @@ namespace Server
                 {
                     _ = selectedClients[i];
                     uploadPluginToolStripMenuItem_Click(sender, e);
-                    new VNCForm().ShowDialog();
+                    //new VNCForm().ShowDialog(); Ожидание добавления отдельного плагина в виде ShowDialog
                     // Сводка:
                     //     Отображает эту форму в виде модального диалогового окна с указанным владельцем.
                     //
